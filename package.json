@@ -1,0 +1,12 @@
+{
+  "name": "bookish-umbrella",
+  "version": "1.0.0",
+  "description": "Cartoony browser proxy demo with downloadable project bundle",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
