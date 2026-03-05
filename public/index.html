@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToonTunnel Proxy</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="scene">
+      <section class="hero-card">
+        <h1>🦊 ToonTunnel Proxy</h1>
+        <p class="subtitle">A playful 2D cartoon-style web proxy inspired by CroxyProxy.</p>
+
+        <form id="proxy-form" class="proxy-form">
+          <input id="url-input" type="text" placeholder="Enter URL (example.com)" required />
+          <button type="submit">Open Site</button>
+        </form>
+
+        <div class="actions">
+          <a class="download-btn" href="/download/project">⬇ Download Project</a>
+        </div>
+
+        <p class="note">Tip: some websites may block proxy loading with anti-bot protections.</p>
+      </section>
+
+      <section class="browser-frame-wrap">
+        <div class="browser-header">
+          <span></span><span></span><span></span>
+          <strong>Toon Browser</strong>
+        </div>
+        <iframe
+          id="proxy-frame"
+          title="Proxy preview"
+          src="about:blank"
+          loading="lazy"
+          referrerpolicy="no-referrer"
+        ></iframe>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
